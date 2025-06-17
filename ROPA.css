@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+}
+
+.productos {
+  display: flex;
+  gap: 5px;
+}
+.producto {
+  border: 1px solid #ccc;
+  padding: 0px;
+  text-align: center;
+
+  width: 150%;
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 10 auto;
+}
+.producto img {
+  width: 120px;        /* Puedes ajustar este valor */
+  height: auto;        /* Mantiene la proporción */
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.redes a {
+  margin-right: 10px;
+  color: #0c0b0c;
+}
+
+footer {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 10px;
+  margin-top: 20px;
+}
+

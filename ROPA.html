@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda Urbana</title>
+  <link rel="stylesheet" href="ROPA.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Moda Urbana</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h1>Viste con Estilo</h1>
+    <p>La mejor ropa urbana al mejor precio. ¡Haz tu pedido ahora!</p>
+    <button onclick="mostrarMensaje()">Comprar Ahora</button>
+  </section>
+
+  <section id="catalogo">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://i.etsystatic.com/32518878/r/il/e3efcf/3624954090/il_570xN.3624954090_lfwm.jpg" alt="Producto 1">
+        <h3>Sudadera Oversize</h3>
+        <p>$450 MXN</p>
+      </div>
+      <div class="producto">
+        <img src="https://myspringfield.mx/dw/image/v2/AAYL_PRD/on/demandware.static/-/Sites-gc-spf-master-catalog/default/dwb67c1634/images/hi-res/P_138992298TM.jpg?sw=600&sh=900&sm=fit&q=90" alt="Producto 2">
+ <h3>Playera Gráfica</h3>
+        <p>$250 MXN</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="info-contacto">
+      <p>Teléfono: 2222-345-678</p>
+      <p>Ubicación: Puebla, México</p>
+      <div class="redes">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moda Urbana. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+function mostrarMensaje() {
+  alert("Gracias por elegir Moda Urbana. Pronto nos pondremos en contacto.");
+}
+
